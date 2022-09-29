@@ -1,0 +1,494 @@
+@media (max-width: 820px) {
+
+    body {
+        background-image: linear-gradient(to bottom, rgba(155, 221, 247, 0.808), rgba(157, 181, 189, 0.555));
+
+        #foto-inicio {
+            height: 300px;
+
+            .primero {
+                margin-left: 16%;
+                font-size: 21px;
+                height: 34px;
+                width: 170px;
+            }
+
+            .tranquilidad {
+                margin-left: 8%;
+                width: 311px;
+                font-size: 132%;
+                height: 33px;
+            }
+        }
+
+        .service {
+            font-size: 175%;
+            margin-bottom: 2%;
+        }
+
+        .row {
+
+            .col {
+                width: 20%;
+
+                .card {
+                    width: 101%;
+
+                    .card-img-top {
+                        width: 60%;
+                    }
+
+
+                    .card-body-car {
+                        font-size: 100%;
+
+                        .card-text {
+                            font-size: 98%;
+                        }
+                    }
+
+                    .card-body1 {
+
+
+                        .card-text {
+                            font-size: 98%;
+
+                        }
+                    }
+                }
+            }
+        }
+
+        .mision {
+
+            .inicio {
+                color: white;
+                font-size: 154%;
+            }
+        }
+
+        .confianza {
+            font-size: 30px;
+        }
+
+        .pie-pagina {
+
+            .grupo-1 {
+                grid-gap: 45px;
+                height: 206px;
+
+                .box {
+
+                    figure {
+
+                        .img-footer {
+                            width: 170px;
+                        }
+                    }
+
+                    .pruebita {
+                        font-size: 18px;
+                    }
+
+                    .description {
+                        font-size: 15px;
+                    }
+
+                    .red-social {
+
+                        a {
+                            width: 43px;
+                            height: 43px;
+                            line-height: 43px;
+                        }
+
+                    }
+                }
+            }
+
+            .grupo-2 {
+                padding: 15px 10px;
+                text-align: center;
+                color: black;
+
+                small {
+                    font-size: 13px;
+                }
+            }
+        }
+
+        // VEHÍCULOS //
+
+        #foto-vehiculos {
+            height: 262px;
+            padding-top: 2%;
+            margin-bottom: auto;
+
+            .conduce-tranqui {
+                width: 270px;
+                height: 23%;
+            }
+        }
+
+        .container {
+            max-width: 100%;
+        }
+
+        .form {
+            line-height: 144%;
+            font-size: 95%;
+            height: 100%;
+
+            .cotizacion {
+
+                .solicitud-coti {
+                    font-size: 150%;
+                }
+
+                .form-car {
+
+
+                    .gnc {
+                        margin-bottom: 9px;
+                    }
+                }
+            }
+        }
+
+        .talleres {
+
+            .title-car {
+                font-size: 120%;
+            }
+
+            .text-car {
+                font-size: 92%;
+            }
+        }
+
+        .limitrofes {
+
+            .title-car {
+                font-size: 120%;
+            }
+
+            .text-car {
+                font-size: 92%;
+            }
+        }
+
+        .asesoramiento {
+
+            .title-car {
+                font-size: 120%;
+            }
+
+            .text-car {
+                font-size: 92%;
+            }
+        }
+
+        .billetera {
+
+            .title-car {
+                font-size: 120%;
+            }
+
+            .text-car {
+                font-size: 92%;
+            }
+        }
+
+        .table {
+            width: 78%;
+            margin: 3% 0% 3% 10%;
+        }
+
+        .table-bordered {
+            border: black 4px solid !important;
+            font-size: 14px;
+        }
+
+        // VIVIENDAS //
+
+        #casa {
+            height: 256px;
+
+            .vivienda {
+                margin-left: 41%;
+                width: 54%;
+                height: 63%;
+                font-size: 103%;
+            }
+        }
+
+        .viviendas {
+            font-size: 28px;
+        }
+
+        .porque-contratar {
+            font-size: 23px;
+        }
+
+        #home {
+
+            .img-home {
+                height: 174px;
+            }
+
+            .list-home {
+                line-height: 22px;
+                font-size: 14px;
+
+                .lista-home {
+                    margin-bottom: 5px;
+                    width: 450px;
+                }
+            }
+        }
+
+        .ventaja {
+            font-size: 25px;
+        }
+
+        .col-2 {
+
+            .card {
+                font-size: 15px;
+
+                .card-title {
+                    font-size: 18px;
+                }
+            }
+        }
+
+        .tipos-planes {
+            font-size: 24px;
+        }
+
+        // Comercios //
+
+        #comerc {
+            padding-top: 40px;
+            height: 255px;
+
+            .pyme {
+                font-size: 16px;
+                margin-left: 28px;
+                width: 58%;
+                height: 56%;
+            }
+        }
+
+        .comercios {
+            font-size: 30px;
+        }
+
+        #work {
+
+            .work-img {
+                height: 175px;
+            }
+
+            .list-work {
+                width: 430px;
+                line-height: 36px;
+                font-size: 15px;
+            }
+        }
+
+        .table {
+            width: 79%;
+            margin: 2% 0% 6% 9%;
+            font-size: 15px;
+        }
+
+        // Cauciones //
+
+        #caucion-image {
+            height: 285px;
+            padding-top: 26px;
+
+            .image-caucion {
+                font-size: 17px;
+                margin-left: 60px;
+                width: 54%;
+                height: 150px;
+            }
+        }
+
+        .contratar {
+            font-size: 28px;
+            margin-bottom: 22px;
+        }
+
+        .cau-section {
+            margin-bottom: 14px;
+
+            .caucion-mobile {
+                height: 179px;
+            }
+
+            .list-cau {
+                font-size: 15px;
+                width: 416px;
+                line-height: 25px;
+            }
+        }
+
+        .tipos-coberturas {
+            margin: 30px 0px 18px 0px;
+            font-size: 26px;
+        }
+
+        .card-text2 {
+            font-size: 14px;
+            width: 145px;
+            margin-bottom: 24px;
+        }
+
+        .img-cau {
+            margin: auto;
+        }
+
+        // Contacto //
+
+        .contact {
+            font-size: 28px;
+        }
+
+        .row-contact {
+
+            .col-2 {
+                width: 28%;
+
+                .card {
+                    .img-contact {
+                        width: 25%;
+                    }
+
+                    .card-body {
+
+                        .card-title {
+                            font-size: 115%;
+                        }
+
+                        .card-text {
+                            font-size: 96%;
+                        }
+
+                        .num-contact {
+                            font-size: 90%;
+                        }
+                    }
+
+                    .img-contact-2 {
+                        width: 16%;
+                    }
+                }
+
+                .h-100 {
+                    align-items: center;
+                    border: 2px black solid;
+                    border-radius: 10px;
+                }
+            }
+        }
+
+        .contact2 {
+            margin-top: 3%;
+            display: flex;
+            justify-content: space-around;
+
+            #first-ubication {
+                font-size: 125%;
+                text-align: center;
+
+                .phone {
+
+                    .img-contacto {
+                        font-size: 17px;
+                    }
+
+                    .text-contact {
+                        font-size: 18px;
+                    }
+                }
+
+                .email {
+
+                    .img-contacto {
+                        font-size: 17px;
+                    }
+
+                    .text-contact2 {
+                        font-size: 18px;
+                    }
+
+                }
+
+                .ubicacion {
+
+                    .img-contacto {
+                        font-size: 17px;
+                    }
+
+                    .ubication {
+                        line-height: 25%;
+                        font-size: 18px;
+                    }
+                }
+            }
+
+            .contact_form {
+                width: 386px;
+                padding: 2px 9px 0px 10px;
+                margin-bottom: 20px;
+
+                .formulario {
+
+                    .form-contact {
+                        font-size: 28px;
+                        text-align: center;
+                    }
+
+                    .escribenos {
+                        font-size: 14px;
+                    }
+
+                    form {
+                        p {
+                            margin-bottom: 8px;
+
+                            label {
+                                font-size: 13px;
+                            }
+
+                            .contact-form {
+                                width: 363px;
+                                height: 37px;
+                                margin-top: 3px;
+                                padding-left: 9px;
+                            }
+
+                            .texto_mensaje {
+                                width: 363px;
+                                height: 130px;
+                                margin: 5px 0px 0px 0px;
+                                padding: 10px 0px 0px 8px;
+                            }
+                        }
+
+                        .enviar {
+                            height: 32px;
+                            margin: 7px 0px 10px 0px;
+                            width: 363px;
+                            display: flex;
+                            justify-content: center;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

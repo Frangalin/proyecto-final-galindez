@@ -1,0 +1,132 @@
+@media (max-width: 991px) {
+
+    body {
+        background-image: linear-gradient(to bottom, rgba(155, 221, 247, 0.808), rgba(157, 181, 189, 0.555));
+
+        header {
+            .bg-light {
+
+                .container-fluid {
+                    justify-content: space-between;
+                }
+            }
+        }
+
+        // INICIO //
+
+        #foto-inicio {
+            
+            .tranquilidad { 
+                margin-left: 17%;
+            }
+        }
+
+        .mision {
+
+            .inicio {
+                font-size: 165%;
+                width: 73%;
+            }
+        }
+
+        .empresas2 {
+            justify-content: space-between;
+            padding: 25px 92px 29px 0px;
+        }
+
+        // Vehículos //
+
+        .form {
+            width: 89%;
+
+            .cotizacion {
+
+                .solicitud-coti {
+                    font-size: 130%;
+                    margin: 2% 0% 5% 0%;
+                }
+
+                .form-car {
+
+                    input {
+                        width: 93%;
+                        height: 27px;
+                    }
+                }
+            }
+        }
+
+        .talleres {
+
+            .title-car {
+                font-size: 135%;
+            }
+
+            .text-car {
+                font-size: 94%;
+            }
+        }
+
+        .limitrofes {
+
+            .title-car {
+                font-size: 135%;
+
+            }
+
+            .text-car {
+                font-size: 94%;
+            }
+        }
+
+        .asesoramiento {
+
+            .title-car {
+                font-size: 135%;
+            }
+
+            .text-car {
+                font-size: 94%;
+            }
+        }
+
+        .billetera {
+
+            .title-car {
+                font-size: 135%;
+            }
+
+            .text-car {
+                font-size: 94%;
+            }
+        }
+
+        .pie-pagina {
+
+            .grupo-1 {
+                padding: 28px 0px;
+            }
+        }
+
+        // VIVIENDAS //
+
+        #casa {
+            height: 314px;
+            padding-top: 6%;
+
+            .vivienda {
+                margin-left: 42%;
+                width: 56%;
+                height: 64%;
+                display: flex;
+                align-items: center;
+            }
+        }
+
+        // CAUCIONES //
+
+        .img-cau {
+            margin: auto;
+        }
+    }
+}

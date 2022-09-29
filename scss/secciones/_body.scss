@@ -1,0 +1,642 @@
+body {
+    background-image: linear-gradient(to bottom, rgba(155, 221, 247, 0.808), rgba(157, 181, 189, 0.555));
+
+    .breadcrumb-item {
+        margin-left: 1%;
+    }
+
+    #foto-inicio {
+        @include images-first;
+        background-image: url("../images/foto-inicio.jpg");
+        height: 320px;
+        padding-top: 128px;
+
+        .primero {
+            margin-left: 23%;
+            font-size: 2rem;
+            width: 255px;
+            background-color: rgba(224, 224, 224, 0.685);
+            height: 46px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .tranquilidad {
+            margin-left: 18%;
+            width: 411px;
+            font-size: 175%;
+            background-color: rgba(224, 224, 224, 0.685);
+            font-weight: bold;
+            height: 39px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+    }
+
+    .service {
+        @extend %titulos;
+        margin-bottom: 1%;
+    }
+
+    .row {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 2%;
+
+        .col {
+            text-align: center;
+            width: 19%;
+
+            .card {
+                border: 2px black solid;
+                border-radius: 10px;
+                width: 101%;
+
+                .card-img-top {
+                    width: 60%;
+                }
+
+                .card-img-top:hover {
+                    transform: skew(5deg);
+                    transition: .5s;
+                }
+
+                .card-body-car {
+                    font-size: 100%;
+                    margin-bottom: 12px;
+                    display: flex;
+                    justify-content: center;
+
+                    .card-text {
+                        font-size: 120%;
+                        width: 95%;
+                        font-weight: bold;
+                    }
+                }
+
+                .card-body1 {
+                    display: flex;
+                    justify-content: center;
+                    margin-bottom: 11px;
+
+                    .card-text {
+                        font-size: 115%;
+                        width: 95%;
+                        font-weight: bold;
+                    }
+                }
+            }
+        }
+    }
+
+    .mision {
+        background-color: rgb(39, 38, 38);
+        display: flex;
+        justify-content: center;
+
+        .inicio {
+            text-align: center;
+            align-items: center;
+            width: 63%;
+            color: white;
+            font-size: 182%;
+            font-weight: bold;
+            margin: 1% 0% 1% 0%;
+        }
+    }
+
+    .confianza {
+        margin: 15px 0px 15px 0px;
+        text-align: center;
+        font-size: 35px;
+    }
+
+    .empresas {
+        margin: 3% 0% 2% 4%;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    .empresas2 {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        padding: 25px 92px 10px 0px;
+        margin-left: 95px;
+    }
+}
+
+// VEHÍCULOS //
+
+#foto-vehiculos {
+    @include images-first;
+    background-image: url("../images/conducir.jpg");
+    height: 325px;
+    padding-top: 3%;
+    margin-bottom: 1%;
+
+    .conduce-tranqui {
+        @extend %titulos;
+        @include subtitle;
+        margin: 9% 0px 0px 13%;
+        width: 270px;
+        height: 21%;
+        display: flex;
+        align-items: center;
+    }
+}
+
+.container {
+    max-width: 98%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 0px 8px;
+    grid-auto-flow: row;
+    grid-template-areas:
+        "form talleres limitrofes"
+        "form asesoramiento billetera";
+}
+
+.form {
+    grid-area: form;
+    text-align: center;
+    width: 80%;
+    background-color: rgba(172, 172, 172, 0.897);
+    display: inline-block;
+    line-height: 124%;
+    border: 2px black solid;
+    border-radius: 10px;
+    font-size: 105%;
+    height: 100%;
+
+    .cotizacion {
+
+        .solicitud-coti {
+            font-size: 160%;
+            text-align: center;
+        }
+
+        .form-car {
+
+            input {
+                width: 95%;
+                margin-bottom: 2%;
+                border: 1px black solid;
+                border-radius: 5px;
+            }
+
+            .yesno {
+                width: 100%;
+                display: flex;
+                justify-content: center;
+
+                .si {
+                    width: 6%;
+                    margin-left: 2%;
+                    margin-right: 8%;
+                }
+
+                .no {
+                    width: 6%;
+                    margin-left: 2%;
+                }
+            }
+
+            .send {
+                width: 28%;
+                margin-top: 4%;
+            }
+
+            .send2 {
+                width: 42%;
+            }
+
+        }
+    }
+
+}
+
+.talleres {
+    grid-area: talleres;
+    text-align: center;
+
+    .title-car {
+        font-size: 170%;
+        text-align: center;
+    }
+
+    .img-car {
+        margin: 1% 0% 2% 0%;
+    }
+
+    .text-car {
+        font-size: 110%;
+    }
+}
+
+.limitrofes {
+    grid-area: limitrofes;
+    text-align: center;
+
+    .title-car {
+        font-size: 170%;
+        text-align: center;
+    }
+
+    .img-car {
+        margin: 1% 0% 2% 0%;
+    }
+
+    .text-car {
+        font-size: 110%;
+    }
+}
+
+.asesoramiento {
+    grid-area: asesoramiento;
+    text-align: center;
+
+    .title-car {
+        font-size: 170%;
+        text-align: center;
+    }
+
+    .img-car {
+        margin: 1% 0% 2% 0%;
+    }
+
+    .text-car {
+        font-size: 110%;
+    }
+}
+
+.billetera {
+    grid-area: billetera;
+    text-align: center;
+
+    .title-car {
+        font-size: 170%;
+        text-align: center;
+    }
+
+    .img-car {
+        margin: 1% 0% 2% 0%;
+    }
+
+    .text-car {
+        font-size: 110%;
+    }
+}
+
+.table {
+    width: 72%;
+    margin: 2% 0% 3% 12%;
+}
+
+.table-bordered {
+    border: black 4px solid !important;
+}
+
+// VIVIENDAS //
+
+#casa {
+    @include images-first;
+    background-image: url("../images/madre-con-hija.jpg");
+    height: 396px;
+    padding-top: 6%;
+
+    .vivienda {
+        @include subtitle;
+        margin-left: 47%;
+        width: 42%;
+        height: 56%;
+        display: flex;
+        align-items: center;
+    }
+}
+
+.viviendas {
+    @extend %titulos;
+    margin-top: 1%;
+}
+
+.porque-contratar {
+    text-align: center;
+    margin-bottom: 2%;
+}
+
+#home {
+    display: flex;
+    justify-content: center;
+
+    .img-home {
+        border: 2px black solid;
+        border-radius: 10px;
+    }
+
+    .list-home {
+        margin-bottom: 5px;
+        display: inline-block;
+        line-height: 25px;
+        list-style-type: disc;
+
+        .lista-home {
+            margin-bottom: 5px;
+            width: 450px;
+        }
+    }
+}
+
+.ventaja {
+    text-align: center;
+    margin: 3% 0% 2% 0%;
+}
+
+.tipos-planes {
+    text-align: center;
+    margin-top: 3%;
+    font-size: 28px;
+}
+
+.table-home {
+    width: 900px;
+    margin-left: 10px;
+}
+
+.table-bordered {
+    border: black 4px solid;
+    width: 750px;
+    margin: 2% auto;
+}
+
+// Comercios //
+
+#comerc {
+    @include images-first;
+    background-image: url("../images/comercio.jpg");
+    padding-top: 78px;
+    height: 300px;
+
+    .pyme {
+        @include subtitle;
+        margin-left: 35px;
+        width: 595px;
+        height: 150px;
+        display: flex;
+        align-items: center;
+    }
+}
+
+.comercios {
+    font-size: 35px;
+    text-align: center;
+    margin-bottom: 2%;
+}
+
+#work {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .work-img {
+        border: 2px black solid;
+        border-radius: 10px;
+        margin-bottom: 2%;
+    }
+
+    .list-work {
+        width: 450px;
+        line-height: 41px;
+        list-style-type: disc;
+
+        .lista-home {
+            margin-bottom: 5px;
+            width: 450px;
+        }
+    }
+}
+
+.table {
+    width: 72%;
+    border: 2px black solid;
+    border-radius: 10px;
+    margin: 2% 0% 3% 12%;
+}
+
+// Cauciones //
+
+#caucion-image {
+    @include images-first;
+    background-image: url("../images/mano-caucion.jpg");
+    height: 357px;
+    padding-top: 60px;
+
+    .image-caucion {
+        @include subtitle;
+        margin-left: 70px;
+        width: 498px;
+        height: 175px;
+        display: flex;
+        align-items: center;
+    }
+}
+
+.contratar {
+    font-size: 35px;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.cau-section {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15px;
+
+    .caucion-mobile {
+        border: 2px black solid;
+        border-radius: 10px;
+    }
+
+    .list-cau {
+        display: flex;
+        flex-direction: column;
+        font-size: 17px;
+        width: 445px;
+        line-height: 29px;
+    }
+}
+
+.tipos-coberturas {
+    margin: 50px 0px 25px 0px;
+    text-align: center;
+    font-size: 29px;
+}
+
+.card-text2 {
+    font-size: 15px;
+    width: 170px;
+    margin-bottom: 25px;
+}
+
+.img-cau {
+    margin: 10px 70px 10px 0px;
+}
+
+// Contacto //
+
+.row-contact {
+    display: flex;
+    text-align: center;
+    justify-content: space-evenly;
+    width: 100%;
+    margin-bottom: 5%;
+
+    .col-2 {
+        width: 25%;
+
+        .card {
+            .img-contact {
+                width: 28%;
+                margin-top: 4%;
+            }
+
+            .card-body {
+
+                .num-contact {
+                    font-weight: bold;
+                }
+            }
+
+            .img-contact-2 {
+                width: 16%;
+            }
+        }
+
+        .h-100 {
+            align-items: center;
+            border: 2px black solid;
+            border-radius: 10px;
+        }
+    }
+}
+
+.contact {
+    font-size: 35px;
+    text-align: center;
+    margin: 2% 0 3% 0;
+}
+
+.contact2 {
+    margin-top: 3%;
+    display: flex;
+    justify-content: space-around;
+
+    #first-ubication {
+        font-size: 125%;
+        text-align: center;
+
+        .phone {
+            display: flex;
+            align-items: flex-end;
+            margin-bottom: 7%;
+
+            .text-contact {
+                margin: 3% 0% 0% 1%;
+            }
+        }
+
+        .email {
+            display: flex;
+            margin-bottom: 7%;
+
+            .text-contact2 {
+                display: flex;
+                align-items: flex-end;
+            }
+
+        }
+
+        .ubicacion {
+            display: flex;
+            line-height: 1%;
+            align-items: flex-end;
+            margin-bottom: 7%;
+
+            .ubication {
+                line-height: 30%;
+            }
+        }
+    }
+
+    .contact_form {
+        width: 426px;
+        border-radius: 10px;
+        padding: 5px 14px 0px 24px;
+        background-color: #fbfbfb;
+
+        .formulario {
+
+            .form-contact {
+                font-size: 37px;
+                padding-bottom: 10px;
+            }
+
+            .escribenos {
+                font-size: 15px;
+                padding-bottom: 9px;
+                color: #0e0e0e;
+            }
+
+            form {
+                p {
+                    .contact-form {
+                        background-color: #fbfbfb;
+                        width: 377px;
+                        height: 40px;
+                        border-radius: 5px;
+                        border-width: 1px;
+                        border: 2px rgb(30, 72, 255) solid;
+                        margin-top: 7px;
+                        padding-left: 10px;
+                    }
+
+                    .contact-form:focus {
+                        outline: 0;
+                        border: 1px solid black;
+                    }
+
+                    .texto_mensaje {
+                        background-color: #fbfbfb;
+                        width: 377px;
+                        height: 140px;
+                        border-radius: 5px;
+                        border-width: 1px;
+                        border: 2px rgb(30, 72, 255) solid;
+                        margin: 10px 0px 2px 0px;
+                        padding: 15px 0px 0px 10px;
+                    }
+
+                    .texto_mensaje:focus {
+                        outline: 0;
+                        border: 1px solid black;
+                    }
+                }
+
+                .enviar {
+                    height: 45px;
+                    padding: 0% 1% 0% 1%;
+                    margin: 7px 0px 13px 0px;
+                    text-transform: uppercase;
+                    background-color: #a3bbe9;
+                    border-radius: 10px;
+                    width: 377px;
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+}
