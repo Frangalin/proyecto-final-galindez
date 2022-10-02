@@ -37,7 +37,7 @@ body {
 
     .service {
         @extend %titulos;
-        margin-bottom: 1%;
+        margin: 3% 0% 2% 0%;
     }
 
     .row {
@@ -151,6 +151,7 @@ body {
 
 .container {
     max-width: 98%;
+    margin-top: 4%;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr;
@@ -321,7 +322,7 @@ body {
 
 .viviendas {
     @extend %titulos;
-    margin-top: 1%;
+    margin-top: 3%;
 }
 
 .porque-contratar {
@@ -363,13 +364,12 @@ body {
 }
 
 .table-home {
-    width: 900px;
     margin-left: 10px;
 }
 
 .table-bordered {
     border: black 4px solid;
-    width: 750px;
+    width: 730px;
     margin: 2% auto;
 }
 
@@ -394,7 +394,7 @@ body {
 .comercios {
     font-size: 35px;
     text-align: center;
-    margin-bottom: 2%;
+    margin: 3% 0% 2% 0%;
 }
 
 #work {
@@ -476,11 +476,21 @@ body {
     font-size: 29px;
 }
 
-.card-text2 {
-    font-size: 15px;
-    width: 170px;
-    margin-bottom: 25px;
+.row {
+    .col {
+        .card2 {
+            .card-body {
+                .card-text2 {
+                    font-size: 15px;
+                    width: 170px;
+                    margin-bottom: 25px;
+                }
+            }
+        }
+    }
 }
+
+
 
 .img-cau {
     margin: 10px 70px 10px 0px;
@@ -583,6 +593,7 @@ body {
             .form-contact {
                 font-size: 37px;
                 padding-bottom: 10px;
+                text-align: center;
             }
 
             .escribenos {

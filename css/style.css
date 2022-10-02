@@ -46,7 +46,7 @@ body {
       align-items: center;
       justify-content: center; }
   body .service {
-    margin-bottom: 1%; }
+    margin: 3% 0% 2% 0%; }
   body .row {
     display: flex;
     justify-content: center;
@@ -131,6 +131,7 @@ body {
 
 .container {
   max-width: 98%;
+  margin-top: 4%;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr;
@@ -246,7 +247,7 @@ body {
     align-items: center; }
 
 .viviendas {
-  margin-top: 1%; }
+  margin-top: 3%; }
 
 .porque-contratar {
   text-align: center;
@@ -277,12 +278,11 @@ body {
   font-size: 28px; }
 
 .table-home {
-  width: 900px;
   margin-left: 10px; }
 
 .table-bordered {
   border: black 4px solid;
-  width: 750px;
+  width: 730px;
   margin: 2% auto; }
 
 #comerc {
@@ -308,7 +308,7 @@ body {
 .comercios {
   font-size: 35px;
   text-align: center;
-  margin-bottom: 2%; }
+  margin: 3% 0% 2% 0%; }
 
 #work {
   display: flex;
@@ -376,7 +376,7 @@ body {
   text-align: center;
   font-size: 29px; }
 
-.card-text2 {
+.row .col .card2 .card-body .card-text2 {
   font-size: 15px;
   width: 170px;
   margin-bottom: 25px; }
@@ -442,7 +442,8 @@ body {
     background-color: #fbfbfb; }
     .contact2 .contact_form .formulario .form-contact {
       font-size: 37px;
-      padding-bottom: 10px; }
+      padding-bottom: 10px;
+      text-align: center; }
     .contact2 .contact_form .formulario .escribenos {
       font-size: 15px;
       padding-bottom: 9px;
@@ -539,14 +540,19 @@ body {
     body .empresas2 {
       justify-content: space-between;
       padding: 25px 92px 29px 0px; }
+    body #foto-vehiculos {
+      height: 244px; }
+      body #foto-vehiculos .conduce-tranqui {
+        width: 260px;
+        height: 27%; }
     body .form {
-      width: 89%; }
+      width: 90%; }
       body .form .cotizacion .solicitud-coti {
-        font-size: 130%;
-        margin: 2% 0% 5% 0%; }
+        font-size: 125%; }
       body .form .cotizacion .form-car input {
-        width: 93%;
-        height: 27px; }
+        width: 96%;
+        height: 29px;
+        font-size: 15px; }
     body .talleres .title-car {
       font-size: 135%; }
     body .talleres .text-car {
@@ -566,16 +572,138 @@ body {
     body .pie-pagina .grupo-1 {
       padding: 28px 0px; }
     body #casa {
-      height: 314px;
-      padding-top: 6%; }
+      height: 300px; }
       body #casa .vivienda {
         margin-left: 42%;
         width: 56%;
         height: 64%;
         display: flex;
         align-items: center; }
+    body .viviendas {
+      font-size: 28px; }
+    body .porque-contratar {
+      font-size: 23px; }
+    body #home .img-home {
+      height: 186px;
+      width: 309px; }
+    body #home .list-home {
+      line-height: 22px;
+      font-size: 18px; }
+      body #home .list-home .lista-home {
+        width: 390px;
+        font-size: 14px;
+        line-height: 20px; }
+    body .ventaja {
+      font-size: 25px; }
+    body .col-2 .card {
+      font-size: 17px; }
+      body .col-2 .card .card-title {
+        font-size: 20px; }
+    body .tipos-planes {
+      font-size: 27px; }
+    body .table-bordered {
+      width: 680px;
+      font-size: 15px; }
+    body #comerc {
+      padding-top: 70px;
+      height: 254px; }
+      body #comerc .pyme {
+        font-size: 20px;
+        width: 542px;
+        height: 130px; }
+    body .comercios {
+      font-size: 32px; }
+    body #work .work-img {
+      height: 185px; }
+    body #work .list-work {
+      width: 426px;
+      line-height: 37px;
+      font-size: 16px; }
+    body .table {
+      width: 80%;
+      margin: 3% 0% 3% 10%; }
+    body #caucion-image {
+      height: 285px;
+      padding-top: 28px; }
+      body #caucion-image .image-caucion {
+        font-size: 19px;
+        width: 53%;
+        height: 146px; }
+    body .contratar {
+      font-size: 29px;
+      margin-bottom: 24px; }
+    body .cau-section .caucion-mobile {
+      height: 195px; }
+    body .cau-section .list-cau {
+      font-size: 17px;
+      width: 400px;
+      line-height: 26px; }
+    body .tipos-coberturas {
+      margin: 25px 0px 15px 0px;
+      font-size: 28px; }
+    body .row .col {
+      text-align: center;
+      width: 22%;
+      display: flex; }
+    body .card-text2 {
+      font-size: 14px;
+      width: 145px;
+      margin-bottom: 24px; }
     body .img-cau {
-      margin: auto; } }
+      margin: auto; }
+    body .contact {
+      font-size: 28px; }
+    body .row-contact .col-2 {
+      width: 28%; }
+      body .row-contact .col-2 .card .img-contact {
+        width: 25%; }
+      body .row-contact .col-2 .card .card-body .card-title {
+        font-size: 115%; }
+      body .row-contact .col-2 .card .card-body .card-text {
+        font-size: 96%; }
+      body .row-contact .col-2 .card .card-body .num-contact {
+        font-size: 90%; }
+      body .row-contact .col-2 .card .img-contact-2 {
+        width: 16%; }
+      body .row-contact .col-2 .h-100 {
+        align-items: center;
+        border: 2px black solid;
+        border-radius: 10px; }
+    body .contact2 {
+      margin-top: 3%;
+      display: flex;
+      justify-content: space-around; }
+      body .contact2 #first-ubication {
+        font-size: 125%;
+        text-align: center; }
+        body .contact2 #first-ubication .phone .img-contacto {
+          font-size: 17px; }
+        body .contact2 #first-ubication .phone .text-contact {
+          font-size: 18px; }
+        body .contact2 #first-ubication .email .img-contacto {
+          font-size: 17px; }
+        body .contact2 #first-ubication .email .text-contact2 {
+          font-size: 18px; }
+        body .contact2 #first-ubication .ubicacion .img-contacto {
+          font-size: 17px; }
+        body .contact2 #first-ubication .ubicacion .ubication {
+          line-height: 25%;
+          font-size: 18px; }
+      body .contact2 .contact_form {
+        width: 388px;
+        padding: 2px 4px 0px 10px; }
+        body .contact2 .contact_form .formulario .form-contact {
+          font-size: 29px; }
+        body .contact2 .contact_form .formulario .escribenos {
+          font-size: 14px; }
+        body .contact2 .contact_form .formulario form p .contact-form {
+          width: 365px;
+          height: 37px; }
+        body .contact2 .contact_form .formulario form p .texto_mensaje {
+          width: 365px;
+          height: 125px; }
+        body .contact2 .contact_form .formulario form .enviar {
+          width: 365px; } }
 
 @media (max-width: 820px) {
   body {
@@ -608,7 +736,6 @@ body {
         body .row .col .card .card-body1 .card-text {
           font-size: 98%; }
     body .mision .inicio {
-      color: white;
       font-size: 154%; }
     body .confianza {
       font-size: 30px; }
@@ -618,13 +745,13 @@ body {
       body .pie-pagina .grupo-1 .box figure .img-footer {
         width: 170px; }
       body .pie-pagina .grupo-1 .box .pruebita {
-        font-size: 18px; }
+        font-size: 17px; }
       body .pie-pagina .grupo-1 .box .description {
-        font-size: 15px; }
+        font-size: 14px; }
       body .pie-pagina .grupo-1 .box .red-social a {
-        width: 43px;
-        height: 43px;
-        line-height: 43px; }
+        width: 40px;
+        height: 40px;
+        line-height: 40px; }
     body .pie-pagina .grupo-2 {
       padding: 15px 10px;
       text-align: center;
@@ -682,15 +809,15 @@ body {
     body .porque-contratar {
       font-size: 23px; }
     body #home .img-home {
-      height: 174px; }
+      height: 163px;
+      width: 246px; }
     body #home .list-home {
-      line-height: 22px;
-      font-size: 14px; }
+      line-height: 20px; }
       body #home .list-home .lista-home {
-        margin-bottom: 5px;
-        width: 450px; }
+        width: 387px;
+        font-size: 14px; }
     body .ventaja {
-      font-size: 25px; }
+      font-size: 23px; }
     body .col-2 .card {
       font-size: 15px; }
       body .col-2 .card .card-title {
@@ -698,25 +825,24 @@ body {
     body .tipos-planes {
       font-size: 24px; }
     body #comerc {
-      padding-top: 40px;
-      height: 255px; }
+      padding-top: 39px;
+      height: 210px; }
       body #comerc .pyme {
-        font-size: 16px;
+        font-size: 15px;
         margin-left: 28px;
         width: 58%;
-        height: 56%; }
+        height: 74%; }
     body .comercios {
       font-size: 30px; }
     body #work .work-img {
-      height: 175px; }
+      height: 155px; }
     body #work .list-work {
-      width: 430px;
-      line-height: 36px;
-      font-size: 15px; }
+      width: 409px;
+      line-height: 32px;
+      font-size: 14px; }
     body .table {
-      width: 79%;
-      margin: 2% 0% 6% 9%;
-      font-size: 15px; }
+      width: 85%;
+      font-size: 14px; }
     body #caucion-image {
       height: 285px;
       padding-top: 26px; }
@@ -729,9 +855,11 @@ body {
       font-size: 28px;
       margin-bottom: 22px; }
     body .cau-section {
-      margin-bottom: 14px; }
+      margin-bottom: 14px;
+      display: flex;
+      align-items: center; }
       body .cau-section .caucion-mobile {
-        height: 179px; }
+        height: 160px; }
       body .cau-section .list-cau {
         font-size: 15px;
         width: 416px;
@@ -739,10 +867,15 @@ body {
     body .tipos-coberturas {
       margin: 30px 0px 18px 0px;
       font-size: 26px; }
-    body .card-text2 {
-      font-size: 14px;
-      width: 145px;
-      margin-bottom: 24px; }
+    body .row {
+      display: flex;
+      justify-content: space-evenly; }
+      body .row .col .card2 .img-cau {
+        height: 68px; }
+      body .row .col .card2 .card-body .card-text2 {
+        font-size: 14px;
+        width: 145px;
+        margin-bottom: 24px; }
     body .img-cau {
       margin: auto; }
     body .contact {
@@ -784,31 +917,316 @@ body {
           line-height: 25%;
           font-size: 18px; }
       body .contact2 .contact_form {
-        width: 386px;
-        padding: 2px 9px 0px 10px;
+        width: 350px;
+        padding: 2px 3px 0px 8px;
         margin-bottom: 20px; }
         body .contact2 .contact_form .formulario .form-contact {
-          font-size: 28px;
-          text-align: center; }
+          font-size: 28px; }
         body .contact2 .contact_form .formulario .escribenos {
-          font-size: 14px; }
+          font-size: 13px; }
         body .contact2 .contact_form .formulario form p {
           margin-bottom: 8px; }
           body .contact2 .contact_form .formulario form p label {
             font-size: 13px; }
           body .contact2 .contact_form .formulario form p .contact-form {
-            width: 363px;
-            height: 37px;
+            width: 335px;
+            height: 36px;
             margin-top: 3px;
             padding-left: 9px; }
           body .contact2 .contact_form .formulario form p .texto_mensaje {
-            width: 363px;
+            width: 335px;
             height: 130px;
             margin: 5px 0px 0px 0px;
             padding: 10px 0px 0px 8px; }
         body .contact2 .contact_form .formulario form .enviar {
           height: 32px;
           margin: 7px 0px 10px 0px;
-          width: 363px;
+          width: 335px;
           display: flex;
           justify-content: center; } }
+
+@media (max-width: 600px) {
+  body {
+    background-image: linear-gradient(to bottom, rgba(155, 221, 247, 0.808), rgba(157, 181, 189, 0.555)); }
+    body .cabeza .navbar .container-fluid .probando1 {
+      height: 85px; }
+    body #foto-inicio {
+      height: 142px;
+      padding-top: 8%; }
+      body #foto-inicio .primero {
+        margin-left: 17%;
+        font-size: 18px;
+        height: 30px;
+        width: 149px; }
+      body #foto-inicio .tranquilidad {
+        margin-left: 8%;
+        width: 253px;
+        font-size: 17px;
+        height: 31px; }
+    body .service {
+      font-size: 145%; }
+    body .row .col {
+      width: 23%; }
+      body .row .col .card {
+        width: 101%; }
+        body .row .col .card .card-img-top {
+          width: 60%; }
+        body .row .col .card .card-body-car {
+          font-size: 84%; }
+          body .row .col .card .card-body-car .card-text {
+            font-size: 81%; }
+        body .row .col .card .card-body1 .card-text {
+          font-size: 66%; }
+    body .mision .inicio {
+      font-size: 86%; }
+    body .confianza {
+      font-size: 23px; }
+    body .empresas {
+      flex-direction: column; }
+    body .empresas2 {
+      flex-direction: column;
+      align-items: center;
+      padding: 0px 57px 20px 0px; }
+    body .pie-pagina {
+      margin-bottom: 3px; }
+      body .pie-pagina .grupo-1 {
+        grid-gap: 22px;
+        height: 165px; }
+        body .pie-pagina .grupo-1 .box figure .img-footer {
+          width: 140px; }
+        body .pie-pagina .grupo-1 .box .pruebita {
+          font-size: 13px; }
+        body .pie-pagina .grupo-1 .box .description {
+          font-size: 11px; }
+        body .pie-pagina .grupo-1 .box .red-social a {
+          width: 33px;
+          height: 33px;
+          line-height: 33px;
+          margin-bottom: 15%; }
+      body .pie-pagina .grupo-2 {
+        padding: 10% 0% 0% 0%;
+        text-align: center; }
+        body .pie-pagina .grupo-2 small {
+          font-size: 9px; }
+    body #foto-vehiculos {
+      height: 116px;
+      padding-top: 1%; }
+      body #foto-vehiculos .conduce-tranqui {
+        width: 183px;
+        height: 43%;
+        font-size: 16px; }
+    body .container {
+      max-width: 100%;
+      display: block;
+      text-align: center; }
+    body .form {
+      line-height: 132%;
+      font-size: 86%;
+      height: 100%;
+      width: 78%; }
+      body .form .cotizacion .solicitud-coti {
+        font-size: 150%; }
+      body .form .cotizacion .form-car input {
+        width: 89%;
+        height: 28px;
+        font-size: 14px; }
+      body .form .cotizacion .form-car .send {
+        margin-top: 1%; }
+    body .talleres {
+      margin-top: 5%; }
+      body .talleres .title-car {
+        font-size: 108%;
+        margin: 6% 0% 2% 0%; }
+      body .talleres .img-car {
+        height: 45px; }
+      body .talleres .text-car {
+        font-size: 85%; }
+    body .limitrofes .title-car {
+      font-size: 108%;
+      margin: 4% 0% 2% 0%; }
+    body .limitrofes .text-car {
+      font-size: 85%; }
+    body .asesoramiento .title-car {
+      font-size: 108%;
+      margin: 4% 0% 2% 0%; }
+    body .asesoramiento .text-car {
+      font-size: 85%; }
+    body .billetera .title-car {
+      font-size: 108%;
+      margin: 4% 0% 2% 0%; }
+    body .billetera .text-car {
+      font-size: 85%;
+      margin-bottom: 6%; }
+    body .table {
+      width: 98%;
+      margin: auto; }
+    body .table-bordered {
+      font-size: 10px; }
+    body #casa {
+      height: 113px;
+      padding-top: 2%; }
+      body #casa .vivienda {
+        margin-left: 39%;
+        width: 56%;
+        height: 80%;
+        font-size: 67%; }
+    body .viviendas {
+      font-size: 21px; }
+    body .porque-contratar {
+      font-size: 18px; }
+    body #home {
+      flex-direction: column;
+      align-items: center; }
+      body #home .img-home {
+        height: 143px;
+        width: 229px; }
+      body #home .list-home .lista-home {
+        width: 355px;
+        font-size: 12px; }
+    body .ventaja {
+      font-size: 17px; }
+    body .row-contact .col-2 .card {
+      font-size: 15px;
+      width: 109%; }
+      body .row-contact .col-2 .card .card-title {
+        font-size: 15px; }
+      body .row-contact .col-2 .card .img-contact {
+        width: 61%; }
+      body .row-contact .col-2 .card .img-contact-2 {
+        width: 30%; }
+      body .row-contact .col-2 .card .card-body .card-text {
+        font-size: 12px; }
+    body .tipos-planes {
+      font-size: 17px; }
+    body .table-bordered {
+      width: 98%; }
+    body #comerc {
+      padding-top: 13px;
+      height: 125px; }
+      body #comerc .pyme {
+        font-size: 11px;
+        margin-left: 18px;
+        width: 69%;
+        height: 72%; }
+    body .comercios {
+      font-size: 21px; }
+    body #work {
+      flex-direction: column;
+      align-items: center; }
+      body #work .work-img {
+        height: 125px; }
+      body #work .list-work {
+        width: 346px;
+        line-height: 30px;
+        font-size: 13px; }
+    body .table {
+      width: 90%;
+      font-size: 11px; }
+    body #caucion-image {
+      height: 121px;
+      padding-top: 8px; }
+      body #caucion-image .image-caucion {
+        font-size: 11px;
+        margin-left: 20px;
+        width: 66%;
+        height: 90px; }
+    body .contratar {
+      font-size: 19px;
+      margin: 3% 0% 2% 0%; }
+    body .cau-section {
+      flex-direction: column; }
+      body .cau-section .caucion-mobile {
+        height: 140px; }
+      body .cau-section .list-cau {
+        font-size: 15px;
+        width: 366px;
+        line-height: 25px; }
+        body .cau-section .list-cau li {
+          width: 347px; }
+    body .tipos-coberturas {
+      margin: 9px 0px 15px 0px;
+      font-size: 19px; }
+    body .row {
+      display: flex;
+      justify-content: space-evenly; }
+      body .row .col {
+        width: 42%; }
+        body .row .col .card2 .img-cau {
+          height: 69px; }
+        body .row .col .card2 .card-body .card-text2 {
+          font-size: 12px;
+          width: 145px;
+          margin: 4px 0px 14px 0px; }
+    body .contact {
+      font-size: 20px; }
+    body .row-contact .col-2 {
+      width: 28%; }
+      body .row-contact .col-2 .card .img-contact {
+        width: 32%; }
+      body .row-contact .col-2 .card .card-body .card-title {
+        font-size: 82%; }
+      body .row-contact .col-2 .card .card-body .card-text {
+        font-size: 65%; }
+      body .row-contact .col-2 .card .card-body .num-contact {
+        font-size: 68%; }
+      body .row-contact .col-2 .card .card-body button {
+        font-size: 12px; }
+      body .row-contact .col-2 .card .img-contact-2 {
+        width: 16%; }
+      body .row-contact .col-2 .h-100 {
+        align-items: center;
+        border: 2px black solid;
+        border-radius: 10px; }
+    body .contact2 {
+      flex-direction: column; }
+      body .contact2 #first-ubication {
+        display: flex;
+        flex-direction: column;
+        align-items: center; }
+        body .contact2 #first-ubication .phone .img-contacto {
+          width: 36px; }
+        body .contact2 #first-ubication .phone .text-contact {
+          font-size: 15px;
+          width: 210px; }
+        body .contact2 #first-ubication .email .img-contacto {
+          width: 58px; }
+        body .contact2 #first-ubication .email .text-contact2 {
+          font-size: 15px; }
+        body .contact2 #first-ubication .ubicacion .img-contacto {
+          width: 40px; }
+        body .contact2 #first-ubication .ubicacion .ubication {
+          line-height: 25%;
+          font-size: 15px; }
+      body .contact2 iframe {
+        margin-bottom: 7%; }
+      body .contact2 .contact_form {
+        width: 325px;
+        padding: 2px 3px 0px 8px;
+        margin-bottom: 20px;
+        margin: auto; }
+        body .contact2 .contact_form .formulario .form-contact {
+          font-size: 20px; }
+        body .contact2 .contact_form .formulario .escribenos {
+          font-size: 12px; }
+        body .contact2 .contact_form .formulario form p {
+          margin-bottom: 8px; }
+          body .contact2 .contact_form .formulario form p label {
+            font-size: 11px; }
+          body .contact2 .contact_form .formulario form p .contact-form {
+            width: 310px;
+            height: 32px;
+            margin-top: 3px;
+            padding-left: 9px; }
+          body .contact2 .contact_form .formulario form p .texto_mensaje {
+            width: 310px;
+            height: 117px;
+            margin: 5px 0px 0px 0px;
+            padding: 10px 0px 0px 8px; }
+        body .contact2 .contact_form .formulario form .enviar {
+          height: 32px;
+          margin: 7px 0px 10px 0px;
+          width: 310px;
+          display: flex;
+          justify-content: center; }
+        body .contact2 .contact_form .formulario form .aviso {
+          font-size: 12px; } }
